@@ -1,0 +1,2 @@
+// Deletes all documents in the 'school' collection with name="Holberton school"
+db.school.remove({name: "Holberton school"});
